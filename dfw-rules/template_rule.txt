@@ -1,0 +1,17 @@
+  rule {
+    display_name          = "rule_${NUM}"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_${NUM}.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_${NUM}.id}"      
+    }
+  }

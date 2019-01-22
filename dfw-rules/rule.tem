@@ -1,0 +1,4318 @@
+  rule {
+    display_name          = "rule_1"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_1.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_1.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_2"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_2.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_2.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_3"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_3.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_3.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_4"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_4.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_4.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_5"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_5.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_5.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_6"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_6.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_6.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_7"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_7.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_7.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_8"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_8.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_8.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_9"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_9.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_9.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_10"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_10.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_10.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_11"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_11.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_11.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_12"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_12.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_12.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_13"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_13.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_13.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_14"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_14.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_14.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_15"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_15.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_15.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_16"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_16.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_16.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_17"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_17.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_17.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_18"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_18.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_18.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_19"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_19.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_19.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_20"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_20.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_20.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_21"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_21.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_21.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_22"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_22.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_22.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_23"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_23.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_23.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_24"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_24.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_24.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_25"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_25.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_25.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_26"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_26.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_26.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_27"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_27.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_27.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_28"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_28.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_28.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_29"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_29.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_29.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_30"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_30.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_30.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_31"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_31.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_31.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_32"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_32.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_32.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_33"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_33.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_33.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_34"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_34.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_34.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_35"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_35.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_35.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_36"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_36.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_36.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_37"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_37.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_37.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_38"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_38.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_38.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_39"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_39.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_39.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_40"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_40.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_40.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_41"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_41.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_41.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_42"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_42.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_42.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_43"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_43.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_43.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_44"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_44.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_44.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_45"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_45.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_45.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_46"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_46.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_46.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_47"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_47.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_47.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_48"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_48.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_48.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_49"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_49.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_49.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_50"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_50.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_50.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_51"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_51.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_51.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_52"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_52.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_52.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_53"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_53.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_53.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_54"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_54.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_54.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_55"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_55.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_55.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_56"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_56.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_56.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_57"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_57.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_57.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_58"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_58.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_58.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_59"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_59.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_59.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_60"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_60.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_60.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_61"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_61.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_61.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_62"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_62.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_62.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_63"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_63.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_63.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_64"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_64.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_64.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_65"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_65.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_65.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_66"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_66.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_66.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_67"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_67.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_67.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_68"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_68.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_68.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_69"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_69.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_69.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_70"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_70.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_70.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_71"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_71.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_71.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_72"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_72.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_72.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_73"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_73.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_73.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_74"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_74.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_74.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_75"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_75.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_75.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_76"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_76.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_76.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_77"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_77.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_77.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_78"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_78.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_78.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_79"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_79.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_79.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_80"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_80.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_80.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_81"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_81.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_81.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_82"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_82.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_82.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_83"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_83.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_83.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_84"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_84.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_84.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_85"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_85.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_85.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_86"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_86.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_86.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_87"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_87.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_87.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_88"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_88.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_88.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_89"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_89.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_89.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_90"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_90.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_90.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_91"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_91.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_91.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_92"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_92.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_92.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_93"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_93.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_93.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_94"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_94.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_94.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_95"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_95.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_95.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_96"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_96.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_96.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_97"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_97.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_97.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_98"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_98.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_98.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_99"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_99.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_99.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_100"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_100.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_100.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_101"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_101.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_101.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_102"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_102.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_102.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_103"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_103.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_103.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_104"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_104.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_104.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_105"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_105.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_105.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_106"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_106.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_106.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_107"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_107.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_107.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_108"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_108.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_108.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_109"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_109.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_109.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_110"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_110.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_110.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_111"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_111.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_111.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_112"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_112.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_112.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_113"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_113.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_113.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_114"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_114.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_114.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_115"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_115.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_115.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_116"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_116.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_116.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_117"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_117.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_117.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_118"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_118.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_118.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_119"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_119.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_119.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_120"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_120.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_120.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_121"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_121.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_121.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_122"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_122.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_122.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_123"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_123.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_123.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_124"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_124.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_124.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_125"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_125.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_125.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_126"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_126.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_126.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_127"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_127.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_127.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_128"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_128.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_128.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_129"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_129.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_129.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_130"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_130.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_130.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_131"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_131.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_131.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_132"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_132.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_132.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_133"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_133.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_133.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_134"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_134.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_134.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_135"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_135.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_135.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_136"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_136.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_136.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_137"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_137.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_137.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_138"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_138.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_138.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_139"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_139.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_139.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_140"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_140.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_140.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_141"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_141.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_141.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_142"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_142.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_142.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_143"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_143.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_143.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_144"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_144.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_144.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_145"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_145.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_145.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_146"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_146.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_146.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_147"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_147.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_147.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_148"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_148.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_148.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_149"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_149.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_149.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_150"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_150.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_150.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_151"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_151.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_151.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_152"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_152.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_152.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_153"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_153.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_153.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_154"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_154.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_154.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_155"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_155.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_155.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_156"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_156.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_156.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_157"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_157.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_157.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_158"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_158.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_158.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_159"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_159.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_159.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_160"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_160.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_160.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_161"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_161.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_161.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_162"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_162.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_162.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_163"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_163.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_163.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_164"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_164.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_164.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_165"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_165.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_165.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_166"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_166.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_166.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_167"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_167.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_167.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_168"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_168.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_168.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_169"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_169.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_169.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_170"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_170.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_170.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_171"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_171.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_171.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_172"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_172.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_172.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_173"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_173.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_173.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_174"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_174.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_174.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_175"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_175.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_175.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_176"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_176.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_176.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_177"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_177.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_177.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_178"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_178.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_178.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_179"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_179.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_179.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_180"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_180.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_180.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_181"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_181.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_181.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_182"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_182.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_182.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_183"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_183.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_183.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_184"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_184.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_184.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_185"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_185.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_185.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_186"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_186.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_186.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_187"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_187.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_187.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_188"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_188.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_188.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_189"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_189.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_189.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_190"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_190.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_190.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_191"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_191.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_191.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_192"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_192.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_192.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_193"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_193.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_193.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_194"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_194.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_194.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_195"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_195.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_195.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_196"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_196.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_196.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_197"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_197.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_197.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_198"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_198.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_198.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_199"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_199.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_199.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_200"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_200.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_200.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_201"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_201.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_201.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_202"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_202.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_202.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_203"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_203.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_203.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_204"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_204.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_204.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_205"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_205.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_205.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_206"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_206.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_206.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_207"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_207.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_207.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_208"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_208.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_208.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_209"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_209.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_209.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_210"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_210.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_210.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_211"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_211.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_211.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_212"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_212.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_212.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_213"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_213.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_213.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_214"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_214.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_214.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_215"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_215.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_215.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_216"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_216.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_216.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_217"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_217.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_217.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_218"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_218.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_218.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_219"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_219.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_219.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_220"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_220.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_220.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_221"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_221.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_221.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_222"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_222.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_222.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_223"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_223.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_223.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_224"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_224.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_224.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_225"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_225.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_225.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_226"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_226.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_226.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_227"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_227.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_227.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_228"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_228.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_228.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_229"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_229.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_229.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_230"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_230.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_230.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_231"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_231.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_231.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_232"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_232.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_232.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_233"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_233.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_233.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_234"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_234.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_234.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_235"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_235.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_235.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_236"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_236.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_236.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_237"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_237.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_237.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_238"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_238.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_238.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_239"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_239.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_239.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_240"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_240.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_240.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_241"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_241.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_241.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_242"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_242.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_242.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_243"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_243.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_243.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_244"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_244.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_244.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_245"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_245.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_245.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_246"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_246.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_246.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_247"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_247.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_247.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_248"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_248.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_248.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_249"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_249.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_249.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_250"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_250.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_250.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_251"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_251.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_251.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_252"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_252.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_252.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_253"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_253.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_253.id}"      
+    }
+  }
+  rule {
+    display_name          = "rule_254"
+    action                = "DROP"
+    logged                = false
+    ip_protocol           = "IPV4"
+    direction             = "IN_OUT"
+
+    source {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_src_254.id}"
+    }
+
+    destination {
+      target_type = "IPSet"
+      target_id   = "${nsxt_ip_set.ipset_dst_254.id}"      
+    }
+  }
